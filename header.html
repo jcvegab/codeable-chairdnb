@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <header>
+      <div class="seccion--header">
+        <div class="header__primario">
+          <div class="header__chairdnb">
+            <ion-icon class="header__arroba" name="at"></ion-icon>
+            <p>Chairdnb</p>
+          </div>
+          <div class="navegacion">
+            <ul class="header__navegacion">
+              <li><a href="#">Become a host</a></li>
+              <li><a href="#">Create your coding experience</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+          </div>
+        </div>
+        <form class="formulario" action="" method="get">
+          <div class="formulario__mensaje">
+            <p>Book unique accommodations to code as never before</p>
+          </div>
+          <label for="where" class="label__where">Where</label>
+          <input
+            type="text"
+            class="formulario__where"
+            placeholder="Everywhere"
+          />
+          <div class="formulario__grupo__medio">
+            <div class="arrival__general">
+              <label for="arrival" class="label__arrival">Arrival</label>
+              <input type="date" class="formulario__arrival" />
+            </div>
+            <div class="formulario_dos">
+              <label for="where" class="label__departure">Departure</label>
+              <input type="date" class="formulario__departure" />
+            </div>
+          </div>
+          <label for="where" class="label__developers">Developers</label>
+          <input
+            type="number"
+            class="formulario__developers"
+            placeholder="Developers"
+          />
+          <input type="submit" class="formulario__buton" value="Search" />
+        </form>
+      </div>
+    </header>
+  </body>
+</html>

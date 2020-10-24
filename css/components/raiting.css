@@ -1,0 +1,17 @@
+.raiting {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  justify-content: center;
+}
+.raiting__star {
+  color: var(--red-color);
+  font-size: 8px;
+}
+.raiting__value {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 14px;
+  color: var(--darkgrey-color);
+}

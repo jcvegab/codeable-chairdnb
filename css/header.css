@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.seccion--header {
+  width: 1366px;
+  height: 750px;
+  background-image: url('../images/HERO.png');
+  background-size: cover;
+}
+
+.header__primario {
+  display: flex;
+}
+
+.header__chairdnb {
+  width: 96px;
+  height: 28px;
+  display: flex;
+  margin-top: 17px;
+  margin-left: 26px;
+  font-family: var(--roboto-font);
+  font-size: 18px;
+  line-height: 28px;
+  gap: 5px;
+  color: var(--white-color);
+}
+
+.navegacion {
+  margin: 17px 24px 0px 850px;
+}
+
+.navegacion ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.header__navegacion li a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 16.41px;
+  font-family: var(--roboto-font);
+}
+
+.formulario {
+  width: 391px;
+  height: 508px;
+  border-radius: 4px;
+
+  margin: 132px 895px 110px 80px;
+
+  background-color: var(--white-color);
+  background-size: cover;
+}
+
+.formulario__mensaje {
+  font-size: 32px;
+  color: var(--darkgrey-color);
+  line-height: 37.5px;
+  padding: 32px 24px 32px 24px;
+  font-weight: 500;
+}
+.formulario label {
+  font-weight: bold;
+  color: var(--darkgrey-color);
+  line-height: 14px;
+}
+.formulario-content {
+  margin-left: 24px;
+}
+.label__where {
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.formulario__where {
+  margin-top: 8px;
+  width: 343px;
+  height: 48px;
+  padding: 16px;
+  margin-bottom: 15px;
+  border: 1px solid var(--lightgrey-color);
+}
+
+.formulario__grupo__medio {
+  display: flex;
+}
+
+.arrival__general {
+  display: block;
+}
+
+.label__arrival {
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.formulario__arrival {
+  margin-top: 8px;
+  width: 172px;
+  height: 48px;
+  margin-bottom: 16px;
+  border: 1px solid var(--lightgrey-color);
+  color: var(--lightgrey-color);
+  padding: 16px;
+}
+
+.label__departure {
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.formulario__departure {
+  margin-top: 8px;
+  width: 172px;
+  height: 48px;
+  margin-left: -9px;
+  border: 1px solid var(--lightgrey-color);
+  color: var(--lightgrey-color);
+  padding: 16px;
+}
+
+.label__developers {
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.formulario__developers {
+  margin-top: 8px;
+  width: 343px;
+  height: 48px;
+  padding: 16px;
+  border: 1px solid var(--lightgrey-color);
+  color: var(--lightgrey-color);
+}
+
+.formulario__buton {
+  width: 146px;
+  height: 48px;
+  background-color: var(--red-color);
+  margin: 16px 24px 0px 190px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  border: 0;
+}

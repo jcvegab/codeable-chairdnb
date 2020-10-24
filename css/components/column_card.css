@@ -1,0 +1,46 @@
+.column-card {
+  width: 188px;
+}
+.column-card p {
+  margin: 0;
+}
+.column-card .destiny-image {
+  width: 100%;
+  border-radius: 4px;
+  margin: 0;
+}
+.column-card .destiny-card {
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 0.625rem;
+  line-height: 11.72px;
+  color: var(--middlegrey-color);
+}
+.column-card .package-card {
+  margin-top: 4px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 18.75px;
+  color: var(--darkgrey-color);
+}
+.column-card .info-package {
+  margin-top: 8px;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: var(--darkgrey-color);
+}
+.column-card .notation {
+  margin-top: 26px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 14.06px;
+  color: var(--green-color);
+  display: flex;
+  align-content: center;
+  gap: 4px;
+}
+.notation .notation-star {
+  width: 8px;
+  height: 8px;
+  margin: auto 0;
+}

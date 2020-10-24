@@ -1,0 +1,10 @@
+@import 'global.css';
+@import 'page.css';
+@import 'header.css';
+@import 'components/big_card.css';
+@import 'components/raiting.css';
+@import 'components/button.css';
+@import 'components/minicard.css';
+@import 'components/cardfooter.css';
+@import '/css/components/banner.css';
+@import '/css/components/column_card.css';

@@ -1,0 +1,31 @@
+.banner {
+  width: 1206px;
+  height: 310px;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-image: url(/images/chairdnbplus.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
+}
+.banner .notation-arroba {
+  font-size: 120px;
+  margin: 0;
+  color: var(--white-color);
+}
+.banner a {
+  display: block;
+  padding: 16px 16px 16px 24px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.625rem;
+  line-height: 11.72px;
+  color: var(--darkgrey-color);
+  background-color: var(--white-color);
+}
+.banner .notation-arrow {
+  margin-left: 13px;
+  transform: translate(0, 1px);
+}

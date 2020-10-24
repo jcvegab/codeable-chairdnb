@@ -1,0 +1,25 @@
+.bigcard {
+  width: 290px;
+  padding: 0px;
+}
+.bigcard__image {
+  width: 100%;
+}
+.bigcard__content {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--middlegrey-color);
+  width: 159px;
+}
+.minibigcard {
+  display: flex;
+  align-items: baseline;
+  gap: 13px;
+}
+.bigcard__price {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--darkgrey-color);
+  font-weight: 400;
+}

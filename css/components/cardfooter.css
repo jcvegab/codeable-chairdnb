@@ -1,0 +1,42 @@
+.cardfooter {
+  width: 391px;
+  padding: 0px;
+}
+.minicardfooter {
+  background-image: url("/images/imgfooter1.png");
+  border-radius: 12px;
+  width: 391px;
+  padding: 0px;
+}
+.minicardfooter2 {
+  background-image: url("/images/imgfooter2.png");
+  border-radius: 12px;
+  width: 391px;
+  padding: 0px;
+}
+.minicardfooter3 {
+  background-image: url("/images/imgfooter3.png");
+  border-radius: 12px;
+  width: 391px;
+  padding: 0px;
+}
+.minicardfooter__logo {
+  z-index: 1;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  color: var(--white-color);
+  padding: 82px 170px;
+  margin: 0px;
+}
+.cardfooter__content {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--purple-color);
+}
+.cardfooter__value {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--darkgrey-color);
+}
